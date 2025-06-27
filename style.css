@@ -639,6 +639,19 @@
 .add01 p{
   margin-top: 10px;
 }
+@media (max-width:720px) {
+  .contact{
+    margin:50px 20px ;
+  }
+  .address{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+  }
+  .summery-content .summary-add .summary-add01{
+    grid-template-columns: 1fr;
+  }
+}
 .map{
   width:100%;
   height:100%;
